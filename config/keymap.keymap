@@ -27,7 +27,7 @@
 &none  &kp EQUAL  &to 1       &lt 6 CAPS   &lt 2 TAB    &lt 5 ENTER  &lt 1 ESC    &lt 4 ENTER  &lt 3 SPACE  &none        &none        &none       &kp MINUS  &none
             >;
         };
-
+        
         layer_1 {
             bindings = <
 &none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
@@ -37,7 +37,7 @@
 &none  &kp EQUAL  &to 0       &lt 6 LALT   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &kp MINUS  &none
             >;
         };
-
+        
         layer_2 {
             bindings = <
 &none  &none   &none     &none      &none      &none                       &none        &none     &none      &none      &none   &none
@@ -47,7 +47,7 @@
 &none  &trans  &trans    &trans     &trans     &trans    &trans    &trans  &trans       &none     &none      &none      &trans  &none
             >;
         };
-
+        
         layer_3 {
             bindings = <
 &none  &none     &none     &none     &none     &none                        &none     &none      &none      &none     &none   &none
@@ -57,7 +57,7 @@
 &none  &trans    &trans    &trans    &trans    &trans     &trans    &trans  &trans    &trans     &trans     &trans    &trans  &none
             >;
         };
-
+        
         layer_4 {
             bindings = <
 &none  &none    &none    &none    &none    &none                      &none     &none      &none      &none     &none   &none
@@ -65,6 +65,16 @@
 &none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                    &kp RGUI  &kp RSHFT  &kp RCTRL  &kp RALT  &trans  &none
 &none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &none     &none   &trans    &trans     &trans     &trans    &trans  &none
 &none  &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans    &trans     &trans     &trans    &trans  &none
+            >;
+        };
+        
+        layer_5 {
+            bindings = <
+&none  &none      &none           &none           &none            &none                       &none           &none           &none            &none            &none   &none
+&none  &trans     &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans                      &trans          &mkp MB5        &mmv MOVE_UP     &mkp MB4         &trans  &none
+&none  &kp LSHFT  &mkp MB3        &mkp MB2        &mkp MB1         &trans                      &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans  &none
+&none  &kp LCTRL  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &none     &none     &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans           &trans  &none
+&none  &trans     &trans          &trans          &trans           &trans  &trans    &mkp MB1  &mkp MB2        &none           &none            &none            &trans  &none
             >;
         };
     };
