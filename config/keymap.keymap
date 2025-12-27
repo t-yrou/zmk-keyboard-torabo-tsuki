@@ -23,7 +23,7 @@
 &none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
 &none  &kp SQT    &kp COMMA   &kp DOT      &kp P        &kp Y                                  &kp F        &kp G        &kp C        &kp R       &kp L      &none
 &none  &kp A      &mt LALT O  &mt LCTRL E  &mt LSHFT U  &mt LGUI I                             &mt RGUI D   &mt RSHFT H  &mt RCTRL T  &mt RALT N  &kp S      &none
-&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none        &none        &kp B        &kp M        &kp W        &kp V       &mt Z      &none
+&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none        &none        &kp B        &kp M        &kp W        &kp V       &kp Z      &none
 &none  &kp EQUAL  &mo 1       &lt 6 CAPS   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &kp MINUS  &none
             >;
         };
