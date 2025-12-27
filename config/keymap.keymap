@@ -20,21 +20,21 @@
 
         layer_0 {
             bindings = <
-&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
-&none  &kp SQT    &kp COMMA   &kp DOT      &kp P        &kp Y                                  &kp F        &kp G        &kp C        &kp R       &kp L      &none
-&none  &kp A      &mt LALT O  &mt LCTRL E  &mt LSHFT U  &mt LGUI I                             &mt RGUI D   &mt RSHFT H  &mt RCTRL T  &mt RALT N  &kp S      &none
-&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none        &none        &kp B        &kp M        &kp W        &kp V       &kp Z      &none
-&none  &kp EQUAL  &to 1       &lt 6 CAPS   &lt 2 TAB    &lt 5 ENTER  &lt 1 ESC    &lt 4 ENTER  &lt 3 SPACE  &none        &none        &none       &kp MINUS  &none
+&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none        &none
+&none  &kp SQT    &kp COMMA   &kp DOT      &kp P        &kp Y                                  &kp F        &kp G        &kp C        &kp R       &kp L        &none
+&none  &kp A      &mt LALT O  &mt LCTRL E  &mt LSHFT U  &mt LGUI I                             &mt RGUI D   &mt RSHFT H  &mt RCTRL T  &mt RALT N  &kp S        &none
+&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none        &none        &kp B        &kp M        &kp W        &kp V       &kp Z        &none
+&none  &kp EQUAL  &to 1       &lt 6 CAPS   &lt 2 TAB    &lt 5 ENTER  &lt 1 ESC    &lt 4 ENTER  &lt 3 SPACE  &none        &none        &none       &lt 2 MINUS  &none
             >;
         };
 
         layer_1 {
             bindings = <
-&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
-&none  &kp Q      &kp W       &kp E        &kp R        &kp T                                  &kp Y        &kp U        &kp I        &kp O       &kp P      &none
-&none  &kp A      &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LGUI G                             &mt RGUI H   &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp COMMA  &none
-&none  &kp Z      &kp X       &kp C        &kp V        &kp B        &none        &none        &kp N        &kp M        &kp SQT      &kp COMMA   &kp FSLH   &none
-&none  &kp EQUAL  &to 0       &lt 6 LALT   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &kp MINUS  &none
+&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none        &none
+&none  &kp Q      &kp W       &kp E        &kp R        &kp T                                  &kp Y        &kp U        &kp I        &kp O       &kp P        &none
+&none  &kp A      &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LGUI G                             &mt RGUI H   &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp COMMA    &none
+&none  &kp Z      &kp X       &kp C        &kp V        &kp B        &none        &none        &kp N        &kp M        &kp SQT      &kp COMMA   &kp FSLH     &none
+&none  &kp EQUAL  &to 0       &lt 6 LALT   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &lt 2 MINUS  &none
             >;
         };
 
@@ -71,7 +71,7 @@
         layer_5 {
             bindings = <
 &none  &none      &none           &none           &none            &none                       &none           &none           &none            &none            &none   &none
-&none  &trans     &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans                      &trans          &mkp MB5        &mmv MOVE_UP     &mkp MB4         &trans  &none
+&none  &trans     &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans                      &trans          &mkp MB4        &mmv MOVE_UP     &mkp MB5         &trans  &none
 &none  &kp LSHFT  &mkp MB3        &mkp MB2        &mkp MB1         &trans                      &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans  &none
 &none  &kp LCTRL  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &none     &none     &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans           &trans  &none
 &none  &trans     &trans          &trans          &trans           &trans  &trans    &mkp MB1  &mkp MB2        &none           &none            &none            &trans  &none
