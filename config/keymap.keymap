@@ -20,65 +20,15 @@
 
         layer_0 {
             bindings = <
-&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
-&none  &kp SQT    &kp COMMA   &kp DOT      &kp P        &kp Y                                  &kp F        &kp G        &kp C        &kp R       &kp L      &none
-&none  &kp A      &mt LALT O  &mt LCTRL E  &mt LSHFT U  &mt LGUI I                             &mt RGUI D   &mt RSHFT H  &mt RCTRL T  &mt RALT N  &kp S      &none
-&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none        &none        &kp B        &kp M        &kp W        &kp V       &mt Z      &none
-&none  &kp EQUAL  &mo 1       &lt 6 CAPS   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &kp MINUS  &none
-            >;
-        };
-
-       layer_1 {
-            bindings = <
-&none  &none      &none       &none        &none        &none                                  &none        &none        &none        &none       &none      &none
-&none  &kp Q      &kp W       &kp E        &kp R        &kp T                                  &kp Y        &kp U        &kp I        &kp O       &kp P      &none
-&none  &kp A      &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LGUI G                             &mt RGUI H   &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp COMMA  &none
-&none  &kp Z      &kp X       &kp C        &kp V        &kp B        &none        &none        &kp N        &kp M        &kp SQT      &kp COMMA   &mt FSLH   &none
-&none  &kp EQUAL  &mo 0       &lt 6 LALT   &lt 2 TAB    &lt 5 SPACE  &lt 1 ESC    &lt 4 SPACE  &lt 3 ENTER  &none        &none        &none       &kp MINUS  &none
+&none  &none      &none       &none        &none        &none                              &none        &none        &none        &none       &none      &none
+&none  &kp SQT    &kp COMMA   &kp DOT      &kp P        &kp Y                              &kp F        &kp G        &kp C        &kp R       &kp L      &none
+&none  &kp A      &mt LALT O  &mt LCTRL E  &mt LSHFT U  &mt LGUI I                         &mt RGUI D   &mt RSHFT H  &mt RCTRL T  &mt RALT N  &kp S      &none
+&none  &kp SEMI   &kp Q       &kp J        &kp K        &kp X        &none      &none      &kp B        &kp M        &kp W        &kp V       &mt Z      &none
+&none  &kp EQUAL  &mo 1       &kp CAPS     &kp TAB      &kp SPACE    &kp ESC    &kp SPACE  &kp ENTER    &none        &none        &none       &kp MINUS  &none
             >;
         };
 
         layer_2 {
-            bindings = <
-&none  &none   &none     &none      &none      &none                       &none        &none     &none      &none      &none   &none
-&none  &trans  &trans    &trans     &trans     &trans                      &key_repeat  &kp PG_UP &kp UP     &kp PG_DN  &trans  &none
-&none  &trans  &kp LALT  &kp LCTRL  &kp LSHFT  &kp LGUI                    &kp BSPC     &kp LEFT  &kp DOWN   &kp RIGHT  &trans  &none
-&none  &trans  &trans    &trans     &trans     &trans    &none     &none   &kp DEL      &kp HOME  &kp K_APP  &kp END    &trans  &none
-&none  &trans  &trans    &trans     &trans     &trans    &trans    &trans  &trans       &none     &none      &none      &trans  &none
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&none  &none     &none     &none     &none     &none                        &none     &none      &none      &none     &none   &none
-&none  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                       &trans    &trans     &trans     &trans    &trans  &none
-&none  &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                       &kp RGUI  &kp RSHFT  &kp RCTRL  &kp RALT  &trans  &none
-&none  &kp LBKT  &kp RBKT  &kp BSLH  &kp FSLH  &kp GRAVE  &none     &none   &trans    &trans     &trans     &trans    &trans  &none
-&none  &trans    &trans    &trans    &trans    &trans     &trans    &trans  &trans    &trans     &trans     &trans    &trans  &none
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&none  &none    &none    &none    &none    &none                      &none     &none      &none      &none     &none   &none
-&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &trans    &trans     &trans     &trans    &trans  &none
-&none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                    &kp RGUI  &kp RSHFT  &kp RCTRL  &kp RALT  &trans  &none
-&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &none     &none   &trans    &trans     &trans     &trans    &trans  &none
-&none  &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans    &trans     &trans     &trans    &trans  &none
-            >;
-        };
-
-        layer_mo {
-            bindings = <
-&none  &none      &none           &none           &none            &none                       &none           &none           &none            &none            &none   &none
-&none  &trans     &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans                      &trans          &mkp MB5        &mmv MOVE_UP     &mkp MB4         &trans  &none
-&none  &kp LSHFT  &mkp MB3        &mkp MB2        &mkp MB1         &trans                      &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans  &none
-&none  &kp LCTRL  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &none     &none     &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans           &trans  &none
-&none  &trans     &trans          &trans          &trans           &trans  &trans    &mkp MB1  &mkp MB2        &none           &none            &none            &trans  &none
-            >;
-        };
-
-        layer_conf {
             bindings = <
 &none  &none   &none   &none   &none   &none                         &none          &none          &none          &none          &none           &none
 &none  &trans  &trans  &trans  &trans  &trans                        &boot loader   &trans         &trans         &bt BT_CLR     &bt BT_CLR_ALL  &none
